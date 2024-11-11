@@ -38,7 +38,7 @@ func New(typ string) Cache {
 	if c == nil {
 		panic("unknow cache type " + typ)
 	}
-	log.Panicln(typ, "ready to serve")
+	log.Println(typ, "ready to serve")
 	return c
 }
 
