@@ -1,0 +1,11 @@
+# Go
+*.a
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+*.out
+/bin
+cache-benchmark/bin
